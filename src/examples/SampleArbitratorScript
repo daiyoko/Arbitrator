@@ -1,0 +1,4 @@
+set algorithm ROUNDROBIN
+start service HTTP 9877
+start service HTTP 9878
+add node 192.168.1.3

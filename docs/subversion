@@ -1,0 +1,28 @@
+===
+Git
+===
+
+BASIC WORKFLOW:
+==============
+    $ # create a remote branch
+    $ mkdir arbitrator
+    $ cd arbitrator
+    $ git init
+    $ git remote add origin 192.168.1.3:/usr/local/git_root/arbitrator-project.git
+    $ git remote -v
+    $ git pull origin master
+    $ git log
+
+    $ # add/edit a file
+    $ git add docs/subversion # git add -A
+    $ git status
+    $ git commit
+    $ git push origin master
+
+    $ # somewhere else...
+    $ git pull origin master
+
+
+REFERENCES:
+==========
+http://qugstart.com/blog/ruby-and-rails/create-a-new-git-remote-repository-from-some-local-files-or-local-git-repository/
